@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SOP Penggunaan Komputer - SMK Kanisius Bambanglipuro</title>
+  <meta name="description" content="SOP lengkap penggunaan komputer di laboratorium sekolah (RPL) — K3LH, prosedur, tanggung jawab, perawatan, dan sanksi." />
+
+  <style>
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #f3f6ff 0%, #ffffff 100%);
+      color: #17203a;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 36px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sheet-wrap {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto 40px;
+    }
+
+    header.page-head {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+      box-shadow: 0 6px 18px rgba(79,84,128,0.08);
+    }
+
+    .headline h1 {
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+      color: #0f1724;
+      font-size: calc(20px + (28 - 20) * ((100vw - 320px) / (1600 - 320)));
+    }
+
+    .headline p {
+      margin: 6px 0 0;
+      color: #6b7280;
+      font-size: 15px;
+    }
+
+    .card-main {
+      background: linear-gradient(180deg, rgba(255,255,255,0.99), rgba(250,250,255,0.98));
+      border-radius: 16px;
+      box-shadow: 0 6px 24px rgba(59,76,150,0.08);
+      padding: 28px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .meta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 18px;
+      color: #6b7280;
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+
+    .meta-item {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .intro p {
+      margin: 0 0 8px;
+      color: #24324a;
+      line-height: 1.6;
+    }
+
+    section {
+      margin-top: 20px;
+    }
+
+    section h2 {
+      font-size: 16px;
+      margin: 0 0 10px;
+      color: #263147;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section h2::before {
+      content: "";
+      width: 8px;
+      height: 28px;
+      background: linear-gradient(180deg, #4b6cb7, #182848);
+      border-radius: 4px;
+    }
+
+    p, ul, ol, table {
+      color: #203040;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    ul, ol { padding-left: 18px; }
+
+    .table-responsive { overflow: auto; margin-top: 10px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 6px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    th {
+      background: rgba(75,108,183,0.06);
+      color: #4b6cb7;
+    }
+
+    .responsibility {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    @media (min-width:800px) {
+      .responsibility { grid-template-columns: repeat(4,1fr); }
+    }
+
+    .resp-card {
+      background: rgba(143,122,230,0.06);
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(143,122,230,0.12);
+    }
+
+    .footer {
+      margin-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .footer .left { color: #6b7280; }
+    .footer .right { font-weight: 600; color: #4b6cb7; }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .card-main { box-shadow: none; border: none; }
+      header.page-head .logo { display: none; }
+    }
+
+    @media (max-width:720px) {
+      body { padding: 18px; }
+      .resp-card { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet-wrap">
+    <header class="page-head">
+      <div class="logo">RPL</div>
+      <div class="headline">
+        <h1>SOP Rekayasa Komputer — SMK 1 BANTUL</h1>
+        <p>Dokumen lengkap: K3LH, prosedur, tanggung jawab, perawatan, dan sanksi. Tahun Pelajaran 2025</p>
+      </div>
+    </header>
+
+    <main class="card-main">
+      <div class="meta">
+        <div class="meta-item"><strong>Disusun oleh</strong><span>Bidang Keahlian RPL</span></div>
+        <div class="meta-item"><strong>Revisi</strong><span>1.0 — 2025</span></div>
+        <div class="meta-item"><strong>Status</strong><span>Aktif</span></div>
+      </div>
+
+      <section class="intro">
+        <p><strong>Pendahuluan:</strong> Komputer adalah alat utama pembelajaran di jurusan RPL. SOP ini bertujuan menjamin penggunaan yang aman, efisien, dan menjaga keberlanjutan fasilitas serta kesehatan pengguna sesuai prinsip K3LH (Kesehatan, Keselamatan, dan Lingkungan Hidup).</p>
+      </section>
+
+      <section>
+        <h2>1. Tujuan</h2>
+        <ol>
+          <li>Menjamin penggunaan komputer yang benar dan aman.</li>
+          <li>Mencegah kerusakan perangkat akibat kelalaian.</li>
+          <li>Meningkatkan kesadaran dan disiplin siswa terhadap fasilitas sekolah.</li>
+          <li>Mendukung penerapan K3LH di laboratorium.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>2. Ruang Lingkup</h2>
+        <p>SOP ini berlaku untuk seluruh pengguna laboratorium komputer: siswa, guru, teknisi, dan staf sekolah yang terkait.</p>
+      </section>
+
+      <section>
+        <h2>3. Peralatan & Fasilitas</h2>
+        <ul>
+          <li>Unit komputer, monitor, keyboard, mouse.</li>
+          <li>UPS / stabilizer, proyektor, jaringan lokal & internet.</li>
+          <li>Kursi ergonomis, meja, alat kebersihan, dan P3K.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Tanggung Jawab</h2>
+        <div class="responsibility">
+          <div class="resp-card"><strong>Siswa</strong><p>Mematuhi SOP, menggunakan perangkat sesuai kebutuhan, melapor bila ada masalah.</p></div>
+          <div class="resp-card"><strong>Guru</strong><p>Memberi instruksi, mengawasi, dan memastikan pelaksanaan SOP saat praktik.</p></div>
+          <div class="resp-card"><strong>Teknisi Lab</strong><p>Perawatan rutin, perbaikan, dan manajemen backup/data.</p></div>
+          <div class="resp-card"><strong>Sekolah</strong><p>Menyediakan fasilitas, memastikan listrik & jaringan aman, serta mengatur jadwal perawatan.</p></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>5. Prosedur Penggunaan</h2>
+
+        <h3 style="margin-top:10px; margin-bottom:6px; color:#334155;">A. Sebelum Menggunakan</h3>
+        <ul>
+          <li>Periksa kondisi meja, kabel, dan colokan.</li>
+          <li>Duduk dengan posisi ergonomis: punggung lurus, kaki menyentuh lantai.</li>
+          <li>Hindari membawa makanan/minuman ke dekat perangkat.</li>
+          <li>Nyalakan komputer dan login dengan akun yang diberikan.</li>
+        </ul>
+
+        <h3 style="margin-top:10px; margin-bottom:6px; color:#334155;">B. Saat Menggunakan</h3>
+        <ul>
+          <li>Gunakan komputer untuk keperluan pembelajaran sesuai arahan guru.</li>
+          <li>Simpan pekerjaan secara berkala dan gunakan versi kontrol bila perlu.</li>
+          <li>Jangan menginstal perangkat lunak tanpa izin; gunakan aplikasi berlisensi.</li>
+          <li>Jaga kebersihan area dan posisi duduk agar tidak cepat lelah.</li>
+        </ul>
+
+        <h3 style="margin-top:10px; margin-bottom:6px; color:#334155;">C. Setelah Menggunakan</h3>
+        <ul>
+          <li>Simpan file ke folder yang ditetapkan dan lakukan logout.</li>
+          <li>Tutup aplikasi dan shutdown komputer sesuai prosedur.</li>
+          <li>Rapikan meja, kabel, dan bersihkan area jika perlu.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Prosedur Keamanan & K3LH</h2>
+        <ul>
+          <li>Jaga jarak mata-monitor ~50–70 cm, atur kecerahan nyaman.</li>
+          <li>Hindari overloading stopkontak; gunakan UPS jika perlu.</li>
+          <li>Sediakan kotak P3K dan APAR di lokasi strategis.</li>
+          <li>Laporkan bau terbakar, percikan api, atau korsleting segera.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Pemeliharaan & Backup</h2>
+        <ul>
+          <li>Pembersihan rutin (mingguan) dan pengecekan kipas/pendingin.</li>
+          <li>Update OS, driver, dan antivirus secara berkala.</li>
+          <li>Backup data penting minimal seminggu sekali (lokal + cloud).</li>
+          <li>Tulis semua kegiatan perawatan pada buku atau log digital laboratorium.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>8. Larangan</h2>
+        <ul>
+          <li>Melakukan instalasi tanpa izin, membawa pulang perangkat sekolah, atau menghapus data tanpa izin.</li>
+          <li>Makan/minum di area komputer atau menggunakan perangkat dengan tangan basah.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>9. Sanksi</h2>
+        <ol>
+          <li>Teguran lisan, peringatan tertulis, hingga pembatasan penggunaan perangkat.</li>
+          <li>Ganti rugi jika kerusakan terjadi karena kelalaian.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>10. Penutup</h2>
+        <p>Dokumen ini menjadi pedoman operasional penggunaan komputer di lingkungan sekolah. Pelaksanaan yang konsisten akan meningkatkan keamanan, menjaga aset, dan mendukung lingkungan belajar yang produktif serta sehat sesuai prinsip K3LH.</p>
+      </section>
+
+      <div class="footer">
+        <div class="left">Disusun oleh: Bidang Keahlian RPL — SMK Kanisius Bambanglipuro</div>
+        <div class="right">Tahun Pelajaran 2025</div>
+      </div>
+
+    </main>
+  </div>
+</body>
+</html>
